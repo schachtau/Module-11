@@ -1,8 +1,12 @@
-This module involves web scraping data from the Mars website. The code, using Beautiful Soup, allows us to "web scrape" specifically for HTML parsing within browswer automation. These rely on Python libraries as dependencies for our code and intended outcome.
+This module involves scraping data from the Mars News website. The code used  , using Beautiful Soup, allows us to "web scrape" specifically for HTML parsing within browswer automation. These rely on Python libraries as dependencies for our code and intended outcome.
 
 We used automated browsing to visit the Mars news site and extract the titles and preview text of news articles in order to find the data needed to analyze the temperature data in part 2. 
 
 To run the Mars scraping code, use the following command-
 python part_1_mars_news.py This will output the titles and previews of the latest Mars news.
 
-Automated browsing is implemented to visit the Mars Temperature Data Site. The Beautiful Soup library is used to scrape data from the HTML table. The scraped data is assembled into a Pandas DataFrame with columns representing various parameters. The data types of each column are examined and converted as necessary (datetime, int, or float). Data analysis is performed to answer specific questions: Number of months on Mars Number of Martian days worth of data Coldest and warmest movnths on Mars Months with the lowest and highest atmospheric pressure on Mars Approximate number of terrestrial days in a Martian year The DataFrame is exported to a CSV file for further use. Code Organization part_1_mars_news.ipynb: Jupyter Notebook for scraping and analyzing Mars news articles. part_2_mars_weather.ipynb: Jupyter Notebook for scraping and analyzing Mars temperature data. Instructions Run the Jupyter Notebooks (part_1_mars_news.ipynb and part_2_mars_weather.ipynb) to execute the code and perform the analysis. Review the printed results and visualizations within the Notebooks. Optionally, share the results with others by exporting the data to a CSV file (mars_weather_data.csv). Feel free to explore, modify, and extend the code to further analyze and visualize Mars-related data.
+The second part of the project focuses on scraping temperature data from the Mars Temperature Data website. It provides both the weather table and an analysis of key weather metrics. The "scraping" practice is essentially the same-
+
+bash python part_2_mars_weather.py This will output the weather table and provide an analysis of average temperature and atmospheric pressure over different Martian months.
+
+Conclusion This project demonstrates the use of web scraping techniques to gather Mars-related data and perform meaningful research. Humans are slowly ruining our planet and data on Martian weather patterns may come in useful someday. 
