@@ -1,4 +1,4 @@
-This module involves scraping data from the Mars News website. The code used  , using Beautiful Soup, allows us to "web scrape" specifically for HTML parsing within browswer automation. These rely on Python libraries as dependencies for our code and intended outcome.
+This module involves scraping data from the Mars News website. The code, along with the use of Beautiful Soup, allows us to "web scrape" specifically for HTML parsing within browswer automation. These rely on Python libraries as dependencies for our code and intended outcome.
 
 We used automated browsing to visit the Mars news site and extract the titles and preview text of news articles in order to find the data needed to analyze the temperature data in part 2. 
 
